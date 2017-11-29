@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background"  tools:ignore="NewApi">@color/backgroundFrist</item>
+        <item name="background">@color/backgroundFrist</item>
+    </style>
+    <style name="myTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="title">
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">50dp</item>
+    </style>
+    <style name="quote">
+        <item name="android:textColor">@color/quote</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="quote_sayer">
+        <item name="android:textColor">@color/quote</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="story_title">
+        <item name="android:textColor">@color/quote</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="milestone_reatched">
+        <item name="android:textColor">@color/quote</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40dp</item>
+    </style>
+
+    <style name="story_title_big">
+        <item name="android:textColor">@color/darkquote</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="quote_big">
+        <item name="android:textColor">@color/darkquote</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="small_dialog_data">
+        <item name="android:textColor">@color/small_dialog</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+</resources>
