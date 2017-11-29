@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "800215788411",
+    "firebase_url": "https://docit-6a118.firebaseio.com",
+    "project_id": "docit-6a118",
+    "storage_bucket": "docit-6a118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800215788411:android:9b3a5e073875b0c3",
+        "android_client_info": {
+          "package_name": "com.nadav.docit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800215788411-codb4qga71479hph9d5sa9jvornh5nf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTr9fFr_H_HNk26i7YjUnXeT3ni4zeImY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
